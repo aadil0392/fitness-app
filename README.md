@@ -65,6 +65,13 @@ Use this combo for easiest free public access:
      Example: `https://your-app.vercel.app`
 5. Deploy and copy your backend URL (example: `https://fitcoach-backend.onrender.com`).
 
+If your Render account does not show `Java` runtime, use Docker instead:
+
+- Environment: `Docker`
+- Root directory: `backend`
+- Dockerfile path: `backend/Dockerfile`
+- Build/start commands: leave default (Dockerfile handles both)
+
 ### 2) Deploy frontend on Vercel (free)
 
 1. Import the same repo in Vercel.
